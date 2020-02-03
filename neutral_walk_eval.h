@@ -13,7 +13,7 @@ using namespace std;
 
 //-----------------------------------------------------------------------------
 // representation of solutions, and neighbors
-#include "paradiseo/eo/src/ga/eoBit.h"                         // bit string : see also EO tutorial lesson 1: FirstBitGA.cpp
+#include "paradiseo/eo/src/ga/eoBit.h"                         // bit string
 #include "paradiseo/mo/src/problems/bitString/moBitNeighbor.h" // neighbor of bit string
 
 //-----------------------------------------------------------------------------
@@ -36,7 +36,7 @@ using namespace std;
 
 // Declaration of types
 //-----------------------------------------------------------------------------
-// Indi is the typedef of the solution type like in paradisEO-eo
+// Indi is the typedef of the solution type
 typedef eoBit<unsigned int> Indi;                      // bit string with unsigned fitness type
 // Neighbor is the typedef of the neighbor type,
 // Neighbor = How to compute the neighbor from the solution + information on it (i.e. fitness)
@@ -51,10 +51,7 @@ void calculate_neutral_walk(int argc, char **argv)
      * Parameters
      *
      * ========================================================= */
-    // more information on the input parameters: see EO tutorial lesson 3
-    // but don't care at first it just read the parameters of the bit string size and the random seed.
 
-    // First define a parser from the command-line arguments
     eoParser parser(argc, argv);
 
     // For each parameter, define Parameter, read it through the parser,
@@ -75,6 +72,26 @@ void calculate_neutral_walk(int argc, char **argv)
     parser.processParam( stepParam, "Representation" );
     unsigned nbStep = stepParam.value();
 
+    // Dummy parameter
+    eoValueParam<double> dummParam(0, "dumm", "Dummy parameter of w-model transformation", 'D');
+    parser.processParam( dummParam, "Representation" );
+    double dumm = dummParam.value();
+
+    // Neutrality parameter
+    eoValueParam<int> neutParam(0, "neut", "Neutrality parameter of w-model transformation", 'N');
+    parser.processParam( neutParam, "Representation" );
+    int neut = neutParam.value();
+
+    // Epistasis parameter
+    eoValueParam<int> episParam(0, "epis", "Epistasis parameter of w-model transformation", 'E');
+    parser.processParam( episParam, "Representation" );
+    int epis = episParam.value();
+
+    // Ruggedness parameter
+    eoValueParam<int> ruggParam(0, "rugg", "Ruggedness parameter of w-model transformation", 'R');
+    parser.processParam( ruggParam, "Representation" );
+    int rugg = ruggParam.value();
+
     // the name of the output file
     string str_out = "out.dat"; // default value
     eoValueParam<string> outParam(str_out, "out", "Output file of the sampling", 'o');
@@ -85,15 +102,13 @@ void calculate_neutral_walk(int argc, char **argv)
     eoValueParam<string> statusParam(str_status, "status", "Status file");
     parser.processParam( statusParam, "Persistence" );
 
-    // do the following AFTER ALL PARAMETERS HAVE BEEN PROCESSED
-    // i.e. in case you need parameters somewhere else, postpone these
     if (parser.userNeedsHelp()) {
         parser.printHelp(cout);
         exit(1);
     }
     if (!statusParam.value().empty()) {
         ofstream os(statusParam.value().c_str());
-        os << parser;// and you can use that file as parameter file
+        os << parser;
     }
 
     /* =========================================================
@@ -104,7 +119,6 @@ void calculate_neutral_walk(int argc, char **argv)
 
     // reproducible random seed: if you don't change SEED above,
     // you'll aways get the same result, NOT a random run
-    // more information: see EO tutorial lesson 1 (FirstBitGA.cpp)
     rng.reseed(seed);
 
     /* =========================================================
@@ -114,7 +128,6 @@ void calculate_neutral_walk(int argc, char **argv)
      * ========================================================= */
 
     // a Indi random initializer: each bit is random
-    // more information: see EO tutorial lesson 1 (FirstBitGA.cpp)
     eoUniformGenerator<bool> uGen;
     eoInitFixedLength<Indi> random(vecSize, uGen);
 
@@ -124,8 +137,7 @@ void calculate_neutral_walk(int argc, char **argv)
      *
      * ========================================================= */
 
-    // the fitness function is just the number of 1 in the bit string after w-model transformation
-    WModelOneMaxEval<Indi> fullEval{0.5, 0, 0, 0};
+    WModelOneMaxEval<Indi> fullEval{dumm, neut, epis, rugg};
 
     /* =========================================================
      *
@@ -133,7 +145,6 @@ void calculate_neutral_walk(int argc, char **argv)
      *
      * ========================================================= */
 
-    // Full evaluation of the neighbor
     moFullEvalByCopy<Neighbor> neighborEval(fullEval);
 
     /* =========================================================
