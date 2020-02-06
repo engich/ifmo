@@ -189,7 +189,7 @@ void calculate_neutral_degree(int argc, char **argv)
     const std::vector<double> & fitnessValues = sampling.getValues(0);
     const std::vector<double> & ndValues = sampling.getValues(1);
 
-    std::cout << "First values:" << std::endl;
+    /*std::cout << "First values:" << std::endl;
     std::cout << "Fitness   " << fitnessValues[0] << std::endl;
     std::cout << "N. Degree " << ndValues[0] << std::endl;
 
@@ -197,36 +197,17 @@ void calculate_neutral_degree(int argc, char **argv)
     std::cout << "Fitness  " << fitnessValues[fitnessValues.size() - 1] << std::endl;
     std::cout << "N. Degree " << ndValues[fitnessValues.size() - 1] << std::endl;
 
-    std::cout << "All values" << std::endl; for (auto val : ndValues) { std::cout << val << std::endl;} std::cout << std::endl;
+    std::cout << "All values" << std::endl; for (auto val : ndValues) { std::cout << val << std::endl;} std::cout << std::endl;*/
 
-    /*const std::vector<Indi> & solutions = sampling.getSolutions(0);
+    double min_neutral_degree, max_neutral_degree, mean_neutral_degree, std_neutral_degree;
 
-    std::cout << "First values:" << std::endl;
-    std::cout << "Solution  " << solutions[0] << std::endl;
-
-    std::cout << "Last values:" << std::endl;
-    std::cout << "Solution  " << solutions[solutions.size() - 1] << std::endl;
-
-    // more basic statistics on the distribution:
     moStatistics statistics;
 
-    vector< vector<double> > dist;
-    vector<double> v;
-
-    statistics.distances(solutions, distance, dist);
-
-    for (unsigned i = 0; i < dist.size(); i++) {
-        for (unsigned j = 0; j < dist.size(); j++) {
-            std::cout << dist[i][j] << " " ;
-            if (j < i)
-                v.push_back(dist[i][j]);
-        }
-        std::cout << std::endl;
-    }
-
-    double min, max, avg, std;
-    statistics.basic(v, min, max, avg, std);
-    std::cout << "min=" << min << ", max=" << max << ", average=" << avg << ", std dev=" << std << std::endl;*/
+    statistics.basic(ndValues, min_neutral_degree, max_neutral_degree, mean_neutral_degree, std_neutral_degree);
+    std::cout << "Min neutral degree: " << min_neutral_degree << std::endl;
+    std::cout << "Max neutral degree: " << max_neutral_degree << std::endl;
+    std::cout << "Mean neutral degree: " << mean_neutral_degree << std::endl;
+    std::cout << "Std neutral degree: " << std_neutral_degree << std::endl;
 }
 
 

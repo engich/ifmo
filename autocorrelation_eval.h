@@ -190,11 +190,11 @@ void calculate_autocorrelation(int argc, char **argv)
     // to get the values of statistics
     const std::vector<double> & fitnessValues = sampling.getValues(0);
 
-    std::cout << "First values:" << std::endl;
+    /*std::cout << "First values:" << std::endl;
     std::cout << "Fitness  " << fitnessValues[0] << std::endl;
 
     std::cout << "Last values:" << std::endl;
-    std::cout << "Fitness  " << fitnessValues[fitnessValues.size() - 1] << std::endl;
+    std::cout << "Fitness  " << fitnessValues[fitnessValues.size() - 1] << std::endl;*/
 
     // more basic statistics on the distribution:
     moStatistics statistics;

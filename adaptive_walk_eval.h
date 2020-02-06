@@ -198,7 +198,7 @@ void calculate_adaptive_walk(int argc, char **argv)
 
     double mean_adaptive_walk_length = accumulate(lengthValues.begin(), lengthValues.end(), 0.0) / lengthValues.size();
 
-    std::cout << "Mean adaptive walk length:: " << mean_adaptive_walk_length << std::endl;
+    std::cout << "Mean adaptive walk length: " << mean_adaptive_walk_length << std::endl;
 }
 
 

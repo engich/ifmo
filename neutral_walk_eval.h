@@ -196,7 +196,7 @@ void calculate_neutral_walk(int argc, char **argv)
     // so, you can compute some statistics in c++ from the data
     const std::vector<Indi> & solutions = sampling.getSolutions(0);
 
-    std::cout << "First values:" << std::endl;
+    /*std::cout << "First values:" << std::endl;
     std::cout << "Solution  " << solutions[0] << std::endl;
 
     std::cout << "Last values:" << std::endl;
@@ -204,7 +204,7 @@ void calculate_neutral_walk(int argc, char **argv)
 
     std::cout << "All solutions" << std::endl;
 
-    for (const auto& val : solutions) { std::cout << val << std::endl; } std::cout << std::endl;
+    for (const auto& val : solutions) { std::cout << val << std::endl; } std::cout << std::endl;*/
 
     // export only the solution into file
     sampling.fileExport(0, str_out + "_sol");
@@ -219,16 +219,20 @@ void calculate_neutral_walk(int argc, char **argv)
 
     for (unsigned i = 0; i < dist.size(); i++) {
         for (unsigned j = 0; j < dist.size(); j++) {
-            std::cout << dist[i][j] << " " ;
+            //std::cout << dist[i][j] << " " ;
             if (j < i)
                 v.push_back(dist[i][j]);
         }
-        std::cout << std::endl;
+        //std::cout << std::endl;
     }
 
-    double min, max, avg, std;
-    statistics.basic(v, min, max, avg, std);
-    std::cout << "min=" << min << ", max=" << max << ", average=" << avg << ", std dev=" << std << std::endl;
+    double min_neutral_walk, max_neutral_walk, mean_neutral_walk, std_neutral_walk;
+
+    statistics.basic(v, min_neutral_walk, max_neutral_walk, mean_neutral_walk, std_neutral_walk);
+    std::cout << "Min neutral walk: " << min_neutral_walk << std::endl;
+    std::cout << "Max neutral walk: " << max_neutral_walk << std::endl;
+    std::cout << "Mean neutral walk: " << mean_neutral_walk << std::endl;
+    std::cout << "Std neutral walk: " << std_neutral_walk << std::endl;
 }
 
 
