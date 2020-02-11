@@ -1,5 +1,3 @@
-# ifmo
-
 ### Building
 To build an executable in **build** folder:
 
