@@ -194,7 +194,7 @@ void calculate_neutral_walk(int argc, char **argv)
 
     // to get the values of statistics
     // so, you can compute some statistics in c++ from the data
-    const std::vector<Indi> & solutions = sampling.getSolutions(0);
+    const std::vector<Indi> &solutions = sampling.getSolutions(0);
 
     /*std::cout << "First values:" << std::endl;
     std::cout << "Solution  " << solutions[0] << std::endl;

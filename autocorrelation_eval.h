@@ -188,7 +188,7 @@ void calculate_autocorrelation(int argc, char **argv)
     sampling.fileExport(str_out);
 
     // to get the values of statistics
-    const std::vector<double> & fitnessValues = sampling.getValues(0);
+    const std::vector<double> &fitnessValues = sampling.getValues(0);
 
     /*std::cout << "First values:" << std::endl;
     std::cout << "Fitness  " << fitnessValues[0] << std::endl;

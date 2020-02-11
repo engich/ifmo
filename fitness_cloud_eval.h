@@ -189,11 +189,10 @@ void calculate_fitness_cloud(int argc, char **argv)
     sampling.fileExport(str_out);
 
     // to get the values of statistics
-    // so, you can compute some statistics in c++ from the data
-    const std::vector<double> & fitnessValues = sampling.getValues(0);
-    const std::vector<double> & neighborFitnessValues = sampling.getValues(1);
+    const std::vector<double> &fitnessValues = sampling.getValues(0);
+    const std::vector<double> &neighborFitnessValues = sampling.getValues(1);
 
-    std::cout << "First values:" << std::endl;
+    /*std::cout << "First values:" << std::endl;
     std::cout << "Fitness  " << fitnessValues[0] << std::endl;
     std::cout << "Neighbor Fitness " << neighborFitnessValues[0] << std::endl;
 
@@ -201,7 +200,11 @@ void calculate_fitness_cloud(int argc, char **argv)
     std::cout << "Fitness  " << fitnessValues[fitnessValues.size() - 1] << std::endl;
     std::cout << "Neighbor Fitness " << neighborFitnessValues[neighborFitnessValues.size() - 1] << std::endl;
 
-    //std::cout << "All values" << std::endl; for (auto val : ndValues) { std::cout << val << std::endl;} std::cout << std::endl;
+    std::cout << "All values" << std::endl; for (auto val : fitnessValues) { std::cout << val << std::endl;} std::cout << std::endl;
+
+    std::cout << "All values" << std::endl; for (auto val : neighborFitnessValues) { std::cout << val << std::endl;} std::cout << std::endl;*/
+
+    std::cout << "Fitness-neighbor correlation: " << pearson_correlation(fitnessValues, neighborFitnessValues) << std::endl;
 }
 
 

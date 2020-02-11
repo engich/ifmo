@@ -186,7 +186,7 @@ void calculate_adaptive_walk(int argc, char **argv)
     sampling.fileExport(str_out);
 
     // to get the values of statistics
-    const std::vector<double> & lengthValues = sampling.getValues(0);
+    const std::vector<double> &lengthValues = sampling.getValues(0);
 
     /*std::cout << "First adaptive walk length:" << std::endl;
     std::cout << "Length: " << lengthValues[0] << std::endl;

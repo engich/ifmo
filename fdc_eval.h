@@ -28,6 +28,8 @@ using namespace std;
 // the sampling class
 #include "paradiseo/mo/src/sampling/moFDCsampling.h"
 
+#include "correlation_eval.h"
+
 // Declaration of types
 //-----------------------------------------------------------------------------
 // Indi is the typedef of the solution type
@@ -37,27 +39,6 @@ typedef eoBit<unsigned int> Indi;                      // bit string with unsign
 // all classes from paradisEO-mo use this template type
 typedef moBitNeighbor<unsigned int> Neighbor ;         // bit string neighbor with unsigned fitness type
 
-
-double pearson_correlation(const vector<double>& x, const vector<double>& y)  {
-    unsigned objects_size = min(x.size(), y.size());
-    double x_mean = 0.0, y_mean = 0.0;
-
-    for (unsigned i = 0; i < objects_size; ++i) {
-        x_mean += x[i] / objects_size;
-        y_mean += y[i] / objects_size;
-    }
-
-    double numerator = 0, squares_sum_x = 0, squares_sum_y = 0;
-    for (unsigned i = 0; i < objects_size; ++i) {
-        numerator += (x[i] - x_mean) * (y[i] - y_mean);
-        squares_sum_x += pow(x[i] - x_mean, 2);
-        squares_sum_y += pow(y[i] - y_mean, 2);
-    }
-
-    double denominator = sqrt(squares_sum_x * squares_sum_y);
-
-    return (denominator > 0 ? numerator / denominator : 0.0);
-}
 
 void calculate_fdc(int argc, char **argv)
 {
@@ -187,8 +168,8 @@ void calculate_fdc(int argc, char **argv)
     sampling.fileExport(str_out);
 
     // to get the values of statistics
-    const std::vector<double> & fitnessValues = sampling.getValues(0);
-    const std::vector<double> & distValues    = sampling.getValues(1);
+    const std::vector<double> &fitnessValues = sampling.getValues(0);
+    const std::vector<double> &distValues    = sampling.getValues(1);
 
     /*std::cout << "First values:" << std::endl;
     std::cout << "Fitness  " << fitnessValues[0] << std::endl;
@@ -201,7 +182,7 @@ void calculate_fdc(int argc, char **argv)
     std::cout << "All Fitness" << std::endl; for (auto val : fitnessValues) { std::cout << val << std::endl;} std::cout << std::endl; std::cout << "Fitness length: " << fitnessValues.size();
     std::cout << "All Distance" << std::endl; for (auto val : distValues) { std::cout << val << std::endl;} std::cout << std::endl; std::cout << "Distance length: " << distValues.size();*/
 
-    std::cout << "Fitness-distance correlation: " << pearson_correlation(fitnessValues, distValues);
+    std::cout << "Fitness-distance correlation: " << pearson_correlation(fitnessValues, distValues) << std::endl;
 }
 
 
