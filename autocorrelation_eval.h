@@ -201,9 +201,9 @@ void calculate_autocorrelation(int argc, char **argv)
 
     vector<double> rho, phi;
 
-    statistics.autocorrelation(fitnessValues, 10, rho, phi);
+    statistics.autocorrelation(fitnessValues, 3, rho, phi);
 
-    for (unsigned s = 0; s < rho.size(); s++)
+    for (unsigned s = 1; s < rho.size(); s++)
         std::cout << s << " " << "rho=" << rho[s] << ", phi=" << phi[s] << std::endl;
 }
 
