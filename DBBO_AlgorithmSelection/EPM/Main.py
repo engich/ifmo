@@ -18,14 +18,28 @@ features_file = "../merge.csv"
 #
 # number_of_features=29
 number_of_features = 50
+list_features = []
 number_of_parameters = 4
 filter_target = [0.5, 0.75, 0.90, 0.95]
 
 
 # filter_target=[0.5,0.75]
 
+def parse_list_args(args):
+    result = []
 
-def Main(filename, features_file, Algorithms, number_of_features, filter_target):
+    for arg in args:
+        if ':' in arg:
+            arg1, arg2 = arg.split(':')
+
+            for i in range(int(arg1), int(arg2) + 1):
+                result.append(i)
+        else:
+            result.append(arg)
+    return result
+
+
+def Main(filename, features_file, Algorithms, number_of_features, filter_target, list_features=None):
     print("\n---------------------------------\n")
     print("Load Data", end="")
     DATA = Load_Data.load_data(filename, ALGORITHMS, filter_target=filter_target)
@@ -35,7 +49,8 @@ def Main(filename, features_file, Algorithms, number_of_features, filter_target)
     Problem.link_all_features(DATA, P, D, F)
     print("  [OK]\nInitialize Empirical Performance Model", end="")
     model = epm.EmpiricalPerformanceModel(number_of_parameters, number_of_features, len(ALGORITHMS),
-                                          input_type="parameters", selector=Selector.Random_selector(probability=0.7))
+                                          input_type="parameters", selector=Selector.Random_selector(probability=0.7),
+                                          list_features=list_features)
     print("  [OK]\nFix Training and Testing sets", end="")
     model.build_training_and_testing_sets(DATA)
     print("\nNumber of problems : " + str(len(model.get_results())) + "\n")
@@ -72,11 +87,13 @@ def Main(filename, features_file, Algorithms, number_of_features, filter_target)
     print("Merit " + str(Merit))
 
 
-parser = argparse.ArgumentParser(description='Process some integers.')
+parser = argparse.ArgumentParser()
 parser.add_argument('--n_features', metavar='N', type=int, help='Number of features to use in model', default=50)
+parser.add_argument('--list_features', metavar='L', nargs='+', help='List of features', default=[])
 args = parser.parse_args()
 
 number_of_features = args.n_features
-print(number_of_features)
 
-Main(filename, features_file, ALGORITHMS, number_of_features, filter_target)
+list_features = parse_list_args(args.list_features)
+
+Main(filename, features_file, ALGORITHMS, number_of_features, filter_target, list_features)

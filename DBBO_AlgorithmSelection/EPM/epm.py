@@ -13,8 +13,10 @@ import Learning_method
 class EmpiricalPerformanceModel:
     def __init__(self, number_of_parameters, numberOfFeatures, numberOfAlgorithms, input_type="features",
                  learning_method=Learning_method.classical_forestRegression(),
-                 selector=Selector.Random_selector(probability=0.2)):
+                 selector=Selector.Random_selector(probability=0.2),
+                 list_features=None):
         self.numberOfFeatures = numberOfFeatures
+        self.list_features = list_features
         self.number_of_parameters = number_of_parameters
         self.set_input_type(input_type)
         self.numberOfAlgorithms = numberOfAlgorithms
@@ -54,11 +56,11 @@ class EmpiricalPerformanceModel:
             a, b = self.learning_method.__transform_item__(self.input_type, problem)
             X += a
             Y += b
-        self.learning_method.train(X, Y, self.input_size, self.numberOfAlgorithms)
+        self.learning_method.train(X, Y, self.input_size, self.numberOfAlgorithms, self.list_features)
 
     # this function take a problem and for all configuration it computes predictions from "features"
     def predict(self, features):
-        result = self.learning_method.predict(features, self.input_size)
+        result = self.learning_method.predict(features, self.input_size, self.list_features)
         return result
 
     # this function use all testing instance to test the EPM and keep the result in the problem class
@@ -78,4 +80,4 @@ class EmpiricalPerformanceModel:
         if input_type == "parameters":
             self.input_size = self.number_of_parameters + 2
         if input_type == "features":
-            self.input_size = self.numberOfFeatures + 2
+            self.input_size = self.numberOfFeatures + 2 if self.list_features is None else len(self.list_features) + 2

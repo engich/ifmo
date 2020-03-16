@@ -11,4 +11,16 @@ By default all features will be used in model training, but you can specify
 
 to use only `N` features
 
-There are 29 features from flacco and 50 overall, so if you want to compare flacco and flacco+paradiseo results, you should compare 29 vs 50 features
+also you can list features you need
+
+`--list_features N1 N2 N3` i.e. `--list_features 0 1 2`
+
+or specify range
+
+`--list_features N1:N2` i.e. `--list_features 29:49`
+
+you can combine both
+
+`--list_features N1 N2 N3:N4 N5` i.e. `--list_features 0 1 29:48 49`
+
+Flacco features are in range `0:28` and paradiseo features are in range `29:49`

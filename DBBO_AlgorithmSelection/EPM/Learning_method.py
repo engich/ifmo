@@ -29,9 +29,9 @@ class classical_forestRegression:
         return X, Y
 
     # this function will train the learning method with X as input and Y as output
-    def train(self, X, Y, input_size, output_size):
+    def train(self, X, Y, input_size, output_size, list_features=None):
         nb_item = len(X)
-        X = [x[:input_size] for x in X]  # truncate features (take left)
+        X = [x[:input_size] for x in X] if list_features is None else [[x[0], x[1]] + [x[ind + 2] for ind in list_features] for x in X]  # truncate features (take left)
         #X = [[x[0], x[1]] + x[len(x) - input_size + 2:] for x in X]  # truncate features (take right)
         X = np.array(X)
         Y = np.array(Y)
@@ -43,8 +43,8 @@ class classical_forestRegression:
         return "Id Best Algorithm Predicted"
 
     # this function make a simple prediction given the input features
-    def predict(self, features, input_size):
-        features = features[:input_size]  # truncate features (take left)
+    def predict(self, features, input_size, list_features=None):
+        features = features[:input_size] if list_features is None else [features[ind] for ind in list_features]  # truncate features (take left)
         #features = [features[0], features[1]] + features[len(features) - input_size + 2:]  # truncate features (take right)
         features = np.array(features)
         features.shape = (1, input_size)
