@@ -1,0 +1,1708 @@
+
+---------------------------------
+
+Load Data  [OK]
+Load ELA Features  [OK]
+Link ELA Features to problems  [OK]
+Initialize Empirical Performance Model  [OK]
+Fix Training and Testing sets
+Number of problems : 791
+
+Train EPM  [OK]
+Test EPM  [OK]
+
+SBS 67727
+VBS 60512
+RS 61763
+Merit 0.1733887733887734
+
+---------------------------------
+
+Load Data  [OK]
+Load ELA Features  [OK]
+Link ELA Features to problems  [OK]
+Initialize Empirical Performance Model  [OK]
+Fix Training and Testing sets
+Number of problems : 798
+
+Train EPM  [OK]
+Test EPM  [OK]
+
+SBS 67727
+VBS 60512
+RS 60976
+Merit 0.0643104643104643
+
+---------------------------------
+
+Load Data  [OK]
+Load ELA Features  [OK]
+Link ELA Features to problems  [OK]
+Initialize Empirical Performance Model  [OK]
+Fix Training and Testing sets
+Number of problems : 778
+
+Train EPM  [OK]
+Test EPM  [OK]
+
+SBS 67727
+VBS 60512
+RS 64243
+Merit 0.5171171171171172
+
+---------------------------------
+
+Load Data  [OK]
+Load ELA Features  [OK]
+Link ELA Features to problems  [OK]
+Initialize Empirical Performance Model  [OK]
+Fix Training and Testing sets
+Number of problems : 816
+
+Train EPM  [OK]
+Test EPM  [OK]
+
+SBS 67727
+VBS 60512
+RS 65284
+Merit 0.6613998613998614
+
+---------------------------------
+
+Load Data  [OK]
+Load ELA Features  [OK]
+Link ELA Features to problems  [OK]
+Initialize Empirical Performance Model  [OK]
+Fix Training and Testing sets
+Number of problems : 765
+
+Train EPM  [OK]
+Test EPM  [OK]
+
+SBS 67727
+VBS 60512
+RS 64580
+Merit 0.5638253638253639
+
+---------------------------------
+
+Load Data  [OK]
+Load ELA Features  [OK]
+Link ELA Features to problems  [OK]
+Initialize Empirical Performance Model  [OK]
+Fix Training and Testing sets
+Number of problems : 784
+
+Train EPM  [OK]
+Test EPM  [OK]
+
+SBS 67727
+VBS 60512
+RS 58903
+Merit -0.223007623007623
+
+---------------------------------
+
+Load Data  [OK]
+Load ELA Features  [OK]
+Link ELA Features to problems  [OK]
+Initialize Empirical Performance Model  [OK]
+Fix Training and Testing sets
+Number of problems : 769
+
+Train EPM  [OK]
+Test EPM  [OK]
+
+SBS 67727
+VBS 60512
+RS 60947
+Merit 0.060291060291060294
+
+---------------------------------
+
+Load Data  [OK]
+Load ELA Features  [OK]
+Link ELA Features to problems  [OK]
+Initialize Empirical Performance Model  [OK]
+Fix Training and Testing sets
+Number of problems : 804
+
+Train EPM  [OK]
+Test EPM  [OK]
+
+SBS 67727
+VBS 60512
+RS 61522
+Merit 0.13998613998613998
+
+---------------------------------
+
+Load Data  [OK]
+Load ELA Features  [OK]
+Link ELA Features to problems  [OK]
+Initialize Empirical Performance Model  [OK]
+Fix Training and Testing sets
+Number of problems : 769
+
+Train EPM  [OK]
+Test EPM  [OK]
+
+SBS 67727
+VBS 60512
+RS 65293
+Merit 0.6626472626472627
+
+---------------------------------
+
+Load Data  [OK]
+Load ELA Features  [OK]
+Link ELA Features to problems  [OK]
+Initialize Empirical Performance Model  [OK]
+Fix Training and Testing sets
+Number of problems : 816
+
+Train EPM  [OK]
+Test EPM  [OK]
+
+SBS 67727
+VBS 60512
+RS 66007
+Merit 0.7616077616077616
+
+---------------------------------
+
+Load Data  [OK]
+Load ELA Features  [OK]
+Link ELA Features to problems  [OK]
+Initialize Empirical Performance Model  [OK]
+Fix Training and Testing sets
+Number of problems : 799
+
+Train EPM  [OK]
+Test EPM  [OK]
+
+SBS 67727
+VBS 60512
+RS 62738
+Merit 0.30852390852390854
+
+---------------------------------
+
+Load Data  [OK]
+Load ELA Features  [OK]
+Link ELA Features to problems  [OK]
+Initialize Empirical Performance Model  [OK]
+Fix Training and Testing sets
+Number of problems : 777
+
+Train EPM  [OK]
+Test EPM  [OK]
+
+SBS 67727
+VBS 60512
+RS 58261
+Merit -0.311988911988912
+
+---------------------------------
+
+Load Data  [OK]
+Load ELA Features  [OK]
+Link ELA Features to problems  [OK]
+Initialize Empirical Performance Model  [OK]
+Fix Training and Testing sets
+Number of problems : 791
+
+Train EPM  [OK]
+Test EPM  [OK]
+
+SBS 67727
+VBS 60512
+RS 62448
+Merit 0.2683298683298683
+
+---------------------------------
+
+Load Data  [OK]
+Load ELA Features  [OK]
+Link ELA Features to problems  [OK]
+Initialize Empirical Performance Model  [OK]
+Fix Training and Testing sets
+Number of problems : 765
+
+Train EPM  [OK]
+Test EPM  [OK]
+
+SBS 67727
+VBS 60512
+RS 61277
+Merit 0.10602910602910603
+
+---------------------------------
+
+Load Data  [OK]
+Load ELA Features  [OK]
+Link ELA Features to problems  [OK]
+Initialize Empirical Performance Model  [OK]
+Fix Training and Testing sets
+Number of problems : 786
+
+Train EPM  [OK]
+Test EPM  [OK]
+
+SBS 67727
+VBS 60512
+RS 64887
+Merit 0.6063756063756064
+
+---------------------------------
+
+Load Data  [OK]
+Load ELA Features  [OK]
+Link ELA Features to problems  [OK]
+Initialize Empirical Performance Model  [OK]
+Fix Training and Testing sets
+Number of problems : 803
+
+Train EPM  [OK]
+Test EPM  [OK]
+
+SBS 67727
+VBS 60512
+RS 65108
+Merit 0.637006237006237
+
+---------------------------------
+
+Load Data  [OK]
+Load ELA Features  [OK]
+Link ELA Features to problems  [OK]
+Initialize Empirical Performance Model  [OK]
+Fix Training and Testing sets
+Number of problems : 799
+
+Train EPM  [OK]
+Test EPM  [OK]
+
+SBS 67727
+VBS 60512
+RS 61375
+Merit 0.11961191961191961
+
+---------------------------------
+
+Load Data  [OK]
+Load ELA Features  [OK]
+Link ELA Features to problems  [OK]
+Initialize Empirical Performance Model  [OK]
+Fix Training and Testing sets
+Number of problems : 811
+
+Train EPM  [OK]
+Test EPM  [OK]
+
+SBS 67727
+VBS 60512
+RS 65397
+Merit 0.6770616770616771
+
+---------------------------------
+
+Load Data  [OK]
+Load ELA Features  [OK]
+Link ELA Features to problems  [OK]
+Initialize Empirical Performance Model  [OK]
+Fix Training and Testing sets
+Number of problems : 797
+
+Train EPM  [OK]
+Test EPM  [OK]
+
+SBS 67727
+VBS 60512
+RS 63816
+Merit 0.45793485793485794
+
+---------------------------------
+
+Load Data  [OK]
+Load ELA Features  [OK]
+Link ELA Features to problems  [OK]
+Initialize Empirical Performance Model  [OK]
+Fix Training and Testing sets
+Number of problems : 793
+
+Train EPM  [OK]
+Test EPM  [OK]
+
+SBS 67727
+VBS 60512
+RS 64573
+Merit 0.5628551628551629
+
+---------------------------------
+
+Load Data  [OK]
+Load ELA Features  [OK]
+Link ELA Features to problems  [OK]
+Initialize Empirical Performance Model  [OK]
+Fix Training and Testing sets
+Number of problems : 813
+
+Train EPM  [OK]
+Test EPM  [OK]
+
+SBS 67727
+VBS 60512
+RS 60418
+Merit -0.013028413028413028
+
+---------------------------------
+
+Load Data  [OK]
+Load ELA Features  [OK]
+Link ELA Features to problems  [OK]
+Initialize Empirical Performance Model  [OK]
+Fix Training and Testing sets
+Number of problems : 789
+
+Train EPM  [OK]
+Test EPM  [OK]
+
+SBS 67727
+VBS 60512
+RS 61980
+Merit 0.20346500346500346
+
+---------------------------------
+
+Load Data  [OK]
+Load ELA Features  [OK]
+Link ELA Features to problems  [OK]
+Initialize Empirical Performance Model  [OK]
+Fix Training and Testing sets
+Number of problems : 798
+
+Train EPM  [OK]
+Test EPM  [OK]
+
+SBS 67727
+VBS 60512
+RS 59541
+Merit -0.13458073458073458
+
+---------------------------------
+
+Load Data  [OK]
+Load ELA Features  [OK]
+Link ELA Features to problems  [OK]
+Initialize Empirical Performance Model  [OK]
+Fix Training and Testing sets
+Number of problems : 788
+
+Train EPM  [OK]
+Test EPM  [OK]
+
+SBS 67727
+VBS 60512
+RS 64477
+Merit 0.5495495495495496
+
+---------------------------------
+
+Load Data  [OK]
+Load ELA Features  [OK]
+Link ELA Features to problems  [OK]
+Initialize Empirical Performance Model  [OK]
+Fix Training and Testing sets
+Number of problems : 782
+
+Train EPM  [OK]
+Test EPM  [OK]
+
+SBS 67727
+VBS 60512
+RS 60523
+Merit 0.0015246015246015245
+
+---------------------------------
+
+Load Data  [OK]
+Load ELA Features  [OK]
+Link ELA Features to problems  [OK]
+Initialize Empirical Performance Model  [OK]
+Fix Training and Testing sets
+Number of problems : 829
+
+Train EPM  [OK]
+Test EPM  [OK]
+
+SBS 67727
+VBS 60512
+RS 62302
+Merit 0.2480942480942481
+
+---------------------------------
+
+Load Data  [OK]
+Load ELA Features  [OK]
+Link ELA Features to problems  [OK]
+Initialize Empirical Performance Model  [OK]
+Fix Training and Testing sets
+Number of problems : 793
+
+Train EPM  [OK]
+Test EPM  [OK]
+
+SBS 67727
+VBS 60512
+RS 60343
+Merit -0.023423423423423424
+
+---------------------------------
+
+Load Data  [OK]
+Load ELA Features  [OK]
+Link ELA Features to problems  [OK]
+Initialize Empirical Performance Model  [OK]
+Fix Training and Testing sets
+Number of problems : 779
+
+Train EPM  [OK]
+Test EPM  [OK]
+
+SBS 67727
+VBS 60512
+RS 58804
+Merit -0.23672903672903672
+
+---------------------------------
+
+Load Data  [OK]
+Load ELA Features  [OK]
+Link ELA Features to problems  [OK]
+Initialize Empirical Performance Model  [OK]
+Fix Training and Testing sets
+Number of problems : 750
+
+Train EPM  [OK]
+Test EPM  [OK]
+
+SBS 67727
+VBS 60512
+RS 60859
+Merit 0.048094248094248095
+
+---------------------------------
+
+Load Data  [OK]
+Load ELA Features  [OK]
+Link ELA Features to problems  [OK]
+Initialize Empirical Performance Model  [OK]
+Fix Training and Testing sets
+Number of problems : 810
+
+Train EPM  [OK]
+Test EPM  [OK]
+
+SBS 67727
+VBS 60512
+RS 61271
+Merit 0.1051975051975052
+
+---------------------------------
+
+Load Data  [OK]
+Load ELA Features  [OK]
+Link ELA Features to problems  [OK]
+Initialize Empirical Performance Model  [OK]
+Fix Training and Testing sets
+Number of problems : 816
+
+Train EPM  [OK]
+Test EPM  [OK]
+
+SBS 67727
+VBS 60512
+RS 64288
+Merit 0.5233541233541233
+
+---------------------------------
+
+Load Data  [OK]
+Load ELA Features  [OK]
+Link ELA Features to problems  [OK]
+Initialize Empirical Performance Model  [OK]
+Fix Training and Testing sets
+Number of problems : 813
+
+Train EPM  [OK]
+Test EPM  [OK]
+
+SBS 67727
+VBS 60512
+RS 65652
+Merit 0.7124047124047124
+
+---------------------------------
+
+Load Data  [OK]
+Load ELA Features  [OK]
+Link ELA Features to problems  [OK]
+Initialize Empirical Performance Model  [OK]
+Fix Training and Testing sets
+Number of problems : 791
+
+Train EPM  [OK]
+Test EPM  [OK]
+
+SBS 67727
+VBS 60512
+RS 67141
+Merit 0.9187803187803187
+
+---------------------------------
+
+Load Data  [OK]
+Load ELA Features  [OK]
+Link ELA Features to problems  [OK]
+Initialize Empirical Performance Model  [OK]
+Fix Training and Testing sets
+Number of problems : 786
+
+Train EPM  [OK]
+Test EPM  [OK]
+
+SBS 67727
+VBS 60512
+RS 63446
+Merit 0.4066528066528067
+
+---------------------------------
+
+Load Data  [OK]
+Load ELA Features  [OK]
+Link ELA Features to problems  [OK]
+Initialize Empirical Performance Model  [OK]
+Fix Training and Testing sets
+Number of problems : 796
+
+Train EPM  [OK]
+Test EPM  [OK]
+
+SBS 67727
+VBS 60512
+RS 60311
+Merit -0.02785862785862786
+
+---------------------------------
+
+Load Data  [OK]
+Load ELA Features  [OK]
+Link ELA Features to problems  [OK]
+Initialize Empirical Performance Model  [OK]
+Fix Training and Testing sets
+Number of problems : 828
+
+Train EPM  [OK]
+Test EPM  [OK]
+
+SBS 67727
+VBS 60512
+RS 63332
+Merit 0.3908523908523909
+
+---------------------------------
+
+Load Data  [OK]
+Load ELA Features  [OK]
+Link ELA Features to problems  [OK]
+Initialize Empirical Performance Model  [OK]
+Fix Training and Testing sets
+Number of problems : 796
+
+Train EPM  [OK]
+Test EPM  [OK]
+
+SBS 67727
+VBS 60512
+RS 64677
+Merit 0.5772695772695773
+
+---------------------------------
+
+Load Data  [OK]
+Load ELA Features  [OK]
+Link ELA Features to problems  [OK]
+Initialize Empirical Performance Model  [OK]
+Fix Training and Testing sets
+Number of problems : 795
+
+Train EPM  [OK]
+Test EPM  [OK]
+
+SBS 67727
+VBS 60512
+RS 63238
+Merit 0.3778239778239778
+
+---------------------------------
+
+Load Data  [OK]
+Load ELA Features  [OK]
+Link ELA Features to problems  [OK]
+Initialize Empirical Performance Model  [OK]
+Fix Training and Testing sets
+Number of problems : 778
+
+Train EPM  [OK]
+Test EPM  [OK]
+
+SBS 67727
+VBS 60512
+RS 66505
+Merit 0.8306306306306306
+
+---------------------------------
+
+Load Data  [OK]
+Load ELA Features  [OK]
+Link ELA Features to problems  [OK]
+Initialize Empirical Performance Model  [OK]
+Fix Training and Testing sets
+Number of problems : 751
+
+Train EPM  [OK]
+Test EPM  [OK]
+
+SBS 67727
+VBS 60512
+RS 64992
+Merit 0.6209286209286209
+
+---------------------------------
+
+Load Data  [OK]
+Load ELA Features  [OK]
+Link ELA Features to problems  [OK]
+Initialize Empirical Performance Model  [OK]
+Fix Training and Testing sets
+Number of problems : 792
+
+Train EPM  [OK]
+Test EPM  [OK]
+
+SBS 67727
+VBS 60512
+RS 60312
+Merit -0.02772002772002772
+
+---------------------------------
+
+Load Data  [OK]
+Load ELA Features  [OK]
+Link ELA Features to problems  [OK]
+Initialize Empirical Performance Model  [OK]
+Fix Training and Testing sets
+Number of problems : 833
+
+Train EPM  [OK]
+Test EPM  [OK]
+
+SBS 67727
+VBS 60512
+RS 60523
+Merit 0.0015246015246015245
+
+---------------------------------
+
+Load Data  [OK]
+Load ELA Features  [OK]
+Link ELA Features to problems  [OK]
+Initialize Empirical Performance Model  [OK]
+Fix Training and Testing sets
+Number of problems : 782
+
+Train EPM  [OK]
+Test EPM  [OK]
+
+SBS 67727
+VBS 60512
+RS 65730
+Merit 0.7232155232155232
+
+---------------------------------
+
+Load Data  [OK]
+Load ELA Features  [OK]
+Link ELA Features to problems  [OK]
+Initialize Empirical Performance Model  [OK]
+Fix Training and Testing sets
+Number of problems : 757
+
+Train EPM  [OK]
+Test EPM  [OK]
+
+SBS 67727
+VBS 60512
+RS 58380
+Merit -0.2954954954954955
+
+---------------------------------
+
+Load Data  [OK]
+Load ELA Features  [OK]
+Link ELA Features to problems  [OK]
+Initialize Empirical Performance Model  [OK]
+Fix Training and Testing sets
+Number of problems : 788
+
+Train EPM  [OK]
+Test EPM  [OK]
+
+SBS 67727
+VBS 60512
+RS 67011
+Merit 0.9007623007623008
+
+---------------------------------
+
+Load Data  [OK]
+Load ELA Features  [OK]
+Link ELA Features to problems  [OK]
+Initialize Empirical Performance Model  [OK]
+Fix Training and Testing sets
+Number of problems : 815
+
+Train EPM  [OK]
+Test EPM  [OK]
+
+SBS 67727
+VBS 60512
+RS 58404
+Merit -0.29216909216909215
+
+---------------------------------
+
+Load Data  [OK]
+Load ELA Features  [OK]
+Link ELA Features to problems  [OK]
+Initialize Empirical Performance Model  [OK]
+Fix Training and Testing sets
+Number of problems : 825
+
+Train EPM  [OK]
+Test EPM  [OK]
+
+SBS 67727
+VBS 60512
+RS 63913
+Merit 0.47137907137907137
+
+---------------------------------
+
+Load Data  [OK]
+Load ELA Features  [OK]
+Link ELA Features to problems  [OK]
+Initialize Empirical Performance Model  [OK]
+Fix Training and Testing sets
+Number of problems : 807
+
+Train EPM  [OK]
+Test EPM  [OK]
+
+SBS 67727
+VBS 60512
+RS 64711
+Merit 0.581981981981982
+
+---------------------------------
+
+Load Data  [OK]
+Load ELA Features  [OK]
+Link ELA Features to problems  [OK]
+Initialize Empirical Performance Model  [OK]
+Fix Training and Testing sets
+Number of problems : 805
+
+Train EPM  [OK]
+Test EPM  [OK]
+
+SBS 67727
+VBS 60512
+RS 62766
+Merit 0.3124047124047124
+
+---------------------------------
+
+Load Data  [OK]
+Load ELA Features  [OK]
+Link ELA Features to problems  [OK]
+Initialize Empirical Performance Model  [OK]
+Fix Training and Testing sets
+Number of problems : 810
+
+Train EPM  [OK]
+Test EPM  [OK]
+
+SBS 67727
+VBS 60512
+RS 64680
+Merit 0.5776853776853776
+
+---------------------------------
+
+Load Data  [OK]
+Load ELA Features  [OK]
+Link ELA Features to problems  [OK]
+Initialize Empirical Performance Model  [OK]
+Fix Training and Testing sets
+Number of problems : 791
+
+Train EPM  [OK]
+Test EPM  [OK]
+
+SBS 67727
+VBS 60512
+RS 60211
+Merit -0.041718641718641716
+
+---------------------------------
+
+Load Data  [OK]
+Load ELA Features  [OK]
+Link ELA Features to problems  [OK]
+Initialize Empirical Performance Model  [OK]
+Fix Training and Testing sets
+Number of problems : 798
+
+Train EPM  [OK]
+Test EPM  [OK]
+
+SBS 67727
+VBS 60512
+RS 64358
+Merit 0.5330561330561331
+
+---------------------------------
+
+Load Data  [OK]
+Load ELA Features  [OK]
+Link ELA Features to problems  [OK]
+Initialize Empirical Performance Model  [OK]
+Fix Training and Testing sets
+Number of problems : 819
+
+Train EPM  [OK]
+Test EPM  [OK]
+
+SBS 67727
+VBS 60512
+RS 64001
+Merit 0.4835758835758836
+
+---------------------------------
+
+Load Data  [OK]
+Load ELA Features  [OK]
+Link ELA Features to problems  [OK]
+Initialize Empirical Performance Model  [OK]
+Fix Training and Testing sets
+Number of problems : 792
+
+Train EPM  [OK]
+Test EPM  [OK]
+
+SBS 67727
+VBS 60512
+RS 61799
+Merit 0.1783783783783784
+
+---------------------------------
+
+Load Data  [OK]
+Load ELA Features  [OK]
+Link ELA Features to problems  [OK]
+Initialize Empirical Performance Model  [OK]
+Fix Training and Testing sets
+Number of problems : 793
+
+Train EPM  [OK]
+Test EPM  [OK]
+
+SBS 67727
+VBS 60512
+RS 62461
+Merit 0.2701316701316701
+
+---------------------------------
+
+Load Data  [OK]
+Load ELA Features  [OK]
+Link ELA Features to problems  [OK]
+Initialize Empirical Performance Model  [OK]
+Fix Training and Testing sets
+Number of problems : 779
+
+Train EPM  [OK]
+Test EPM  [OK]
+
+SBS 67727
+VBS 60512
+RS 62736
+Merit 0.30824670824670825
+
+---------------------------------
+
+Load Data  [OK]
+Load ELA Features  [OK]
+Link ELA Features to problems  [OK]
+Initialize Empirical Performance Model  [OK]
+Fix Training and Testing sets
+Number of problems : 828
+
+Train EPM  [OK]
+Test EPM  [OK]
+
+SBS 67727
+VBS 60512
+RS 62517
+Merit 0.2778932778932779
+
+---------------------------------
+
+Load Data  [OK]
+Load ELA Features  [OK]
+Link ELA Features to problems  [OK]
+Initialize Empirical Performance Model  [OK]
+Fix Training and Testing sets
+Number of problems : 806
+
+Train EPM  [OK]
+Test EPM  [OK]
+
+SBS 67727
+VBS 60512
+RS 60474
+Merit -0.0052668052668052665
+
+---------------------------------
+
+Load Data  [OK]
+Load ELA Features  [OK]
+Link ELA Features to problems  [OK]
+Initialize Empirical Performance Model  [OK]
+Fix Training and Testing sets
+Number of problems : 793
+
+Train EPM  [OK]
+Test EPM  [OK]
+
+SBS 67727
+VBS 60512
+RS 60271
+Merit -0.0334026334026334
+
+---------------------------------
+
+Load Data  [OK]
+Load ELA Features  [OK]
+Link ELA Features to problems  [OK]
+Initialize Empirical Performance Model  [OK]
+Fix Training and Testing sets
+Number of problems : 839
+
+Train EPM  [OK]
+Test EPM  [OK]
+
+SBS 67727
+VBS 60512
+RS 60435
+Merit -0.010672210672210672
+
+---------------------------------
+
+Load Data  [OK]
+Load ELA Features  [OK]
+Link ELA Features to problems  [OK]
+Initialize Empirical Performance Model  [OK]
+Fix Training and Testing sets
+Number of problems : 796
+
+Train EPM  [OK]
+Test EPM  [OK]
+
+SBS 67727
+VBS 60512
+RS 58812
+Merit -0.23562023562023562
+
+---------------------------------
+
+Load Data  [OK]
+Load ELA Features  [OK]
+Link ELA Features to problems  [OK]
+Initialize Empirical Performance Model  [OK]
+Fix Training and Testing sets
+Number of problems : 768
+
+Train EPM  [OK]
+Test EPM  [OK]
+
+SBS 67727
+VBS 60512
+RS 63650
+Merit 0.43492723492723495
+
+---------------------------------
+
+Load Data  [OK]
+Load ELA Features  [OK]
+Link ELA Features to problems  [OK]
+Initialize Empirical Performance Model  [OK]
+Fix Training and Testing sets
+Number of problems : 804
+
+Train EPM  [OK]
+Test EPM  [OK]
+
+SBS 67727
+VBS 60512
+RS 62638
+Merit 0.29466389466389464
+
+---------------------------------
+
+Load Data  [OK]
+Load ELA Features  [OK]
+Link ELA Features to problems  [OK]
+Initialize Empirical Performance Model  [OK]
+Fix Training and Testing sets
+Number of problems : 787
+
+Train EPM  [OK]
+Test EPM  [OK]
+
+SBS 67727
+VBS 60512
+RS 60639
+Merit 0.017602217602217602
+
+---------------------------------
+
+Load Data  [OK]
+Load ELA Features  [OK]
+Link ELA Features to problems  [OK]
+Initialize Empirical Performance Model  [OK]
+Fix Training and Testing sets
+Number of problems : 790
+
+Train EPM  [OK]
+Test EPM  [OK]
+
+SBS 67727
+VBS 60512
+RS 59160
+Merit -0.1873873873873874
+
+---------------------------------
+
+Load Data  [OK]
+Load ELA Features  [OK]
+Link ELA Features to problems  [OK]
+Initialize Empirical Performance Model  [OK]
+Fix Training and Testing sets
+Number of problems : 779
+
+Train EPM  [OK]
+Test EPM  [OK]
+
+SBS 67727
+VBS 60512
+RS 63780
+Merit 0.45294525294525295
+
+---------------------------------
+
+Load Data  [OK]
+Load ELA Features  [OK]
+Link ELA Features to problems  [OK]
+Initialize Empirical Performance Model  [OK]
+Fix Training and Testing sets
+Number of problems : 782
+
+Train EPM  [OK]
+Test EPM  [OK]
+
+SBS 67727
+VBS 60512
+RS 58085
+Merit -0.3363825363825364
+
+---------------------------------
+
+Load Data  [OK]
+Load ELA Features  [OK]
+Link ELA Features to problems  [OK]
+Initialize Empirical Performance Model  [OK]
+Fix Training and Testing sets
+Number of problems : 792
+
+Train EPM  [OK]
+Test EPM  [OK]
+
+SBS 67727
+VBS 60512
+RS 62845
+Merit 0.32335412335412334
+
+---------------------------------
+
+Load Data  [OK]
+Load ELA Features  [OK]
+Link ELA Features to problems  [OK]
+Initialize Empirical Performance Model  [OK]
+Fix Training and Testing sets
+Number of problems : 837
+
+Train EPM  [OK]
+Test EPM  [OK]
+
+SBS 67727
+VBS 60512
+RS 65642
+Merit 0.7110187110187111
+
+---------------------------------
+
+Load Data  [OK]
+Load ELA Features  [OK]
+Link ELA Features to problems  [OK]
+Initialize Empirical Performance Model  [OK]
+Fix Training and Testing sets
+Number of problems : 813
+
+Train EPM  [OK]
+Test EPM  [OK]
+
+SBS 67727
+VBS 60512
+RS 64747
+Merit 0.586971586971587
+
+---------------------------------
+
+Load Data  [OK]
+Load ELA Features  [OK]
+Link ELA Features to problems  [OK]
+Initialize Empirical Performance Model  [OK]
+Fix Training and Testing sets
+Number of problems : 774
+
+Train EPM  [OK]
+Test EPM  [OK]
+
+SBS 67727
+VBS 60512
+RS 67091
+Merit 0.9118503118503118
+
+---------------------------------
+
+Load Data  [OK]
+Load ELA Features  [OK]
+Link ELA Features to problems  [OK]
+Initialize Empirical Performance Model  [OK]
+Fix Training and Testing sets
+Number of problems : 781
+
+Train EPM  [OK]
+Test EPM  [OK]
+
+SBS 67727
+VBS 60512
+RS 55509
+Merit -0.6934164934164934
+
+---------------------------------
+
+Load Data  [OK]
+Load ELA Features  [OK]
+Link ELA Features to problems  [OK]
+Initialize Empirical Performance Model  [OK]
+Fix Training and Testing sets
+Number of problems : 807
+
+Train EPM  [OK]
+Test EPM  [OK]
+
+SBS 67727
+VBS 60512
+RS 58439
+Merit -0.28731808731808733
+
+---------------------------------
+
+Load Data  [OK]
+Load ELA Features  [OK]
+Link ELA Features to problems  [OK]
+Initialize Empirical Performance Model  [OK]
+Fix Training and Testing sets
+Number of problems : 774
+
+Train EPM  [OK]
+Test EPM  [OK]
+
+SBS 67727
+VBS 60512
+RS 61266
+Merit 0.1045045045045045
+
+---------------------------------
+
+Load Data  [OK]
+Load ELA Features  [OK]
+Link ELA Features to problems  [OK]
+Initialize Empirical Performance Model  [OK]
+Fix Training and Testing sets
+Number of problems : 720
+
+Train EPM  [OK]
+Test EPM  [OK]
+
+SBS 67727
+VBS 60512
+RS 62048
+Merit 0.2128898128898129
+
+---------------------------------
+
+Load Data  [OK]
+Load ELA Features  [OK]
+Link ELA Features to problems  [OK]
+Initialize Empirical Performance Model  [OK]
+Fix Training and Testing sets
+Number of problems : 823
+
+Train EPM  [OK]
+Test EPM  [OK]
+
+SBS 67727
+VBS 60512
+RS 61180
+Merit 0.09258489258489258
+
+---------------------------------
+
+Load Data  [OK]
+Load ELA Features  [OK]
+Link ELA Features to problems  [OK]
+Initialize Empirical Performance Model  [OK]
+Fix Training and Testing sets
+Number of problems : 832
+
+Train EPM  [OK]
+Test EPM  [OK]
+
+SBS 67727
+VBS 60512
+RS 57309
+Merit -0.4439362439362439
+
+---------------------------------
+
+Load Data  [OK]
+Load ELA Features  [OK]
+Link ELA Features to problems  [OK]
+Initialize Empirical Performance Model  [OK]
+Fix Training and Testing sets
+Number of problems : 780
+
+Train EPM  [OK]
+Test EPM  [OK]
+
+SBS 67727
+VBS 60512
+RS 62357
+Merit 0.25571725571725573
+
+---------------------------------
+
+Load Data  [OK]
+Load ELA Features  [OK]
+Link ELA Features to problems  [OK]
+Initialize Empirical Performance Model  [OK]
+Fix Training and Testing sets
+Number of problems : 814
+
+Train EPM  [OK]
+Test EPM  [OK]
+
+SBS 67727
+VBS 60512
+RS 58601
+Merit -0.2648648648648649
+
+---------------------------------
+
+Load Data  [OK]
+Load ELA Features  [OK]
+Link ELA Features to problems  [OK]
+Initialize Empirical Performance Model  [OK]
+Fix Training and Testing sets
+Number of problems : 800
+
+Train EPM  [OK]
+Test EPM  [OK]
+
+SBS 67727
+VBS 60512
+RS 63581
+Merit 0.4253638253638254
+
+---------------------------------
+
+Load Data  [OK]
+Load ELA Features  [OK]
+Link ELA Features to problems  [OK]
+Initialize Empirical Performance Model  [OK]
+Fix Training and Testing sets
+Number of problems : 778
+
+Train EPM  [OK]
+Test EPM  [OK]
+
+SBS 67727
+VBS 60512
+RS 61926
+Merit 0.19598059598059597
+
+---------------------------------
+
+Load Data  [OK]
+Load ELA Features  [OK]
+Link ELA Features to problems  [OK]
+Initialize Empirical Performance Model  [OK]
+Fix Training and Testing sets
+Number of problems : 823
+
+Train EPM  [OK]
+Test EPM  [OK]
+
+SBS 67727
+VBS 60512
+RS 58147
+Merit -0.3277893277893278
+
+---------------------------------
+
+Load Data  [OK]
+Load ELA Features  [OK]
+Link ELA Features to problems  [OK]
+Initialize Empirical Performance Model  [OK]
+Fix Training and Testing sets
+Number of problems : 776
+
+Train EPM  [OK]
+Test EPM  [OK]
+
+SBS 67727
+VBS 60512
+RS 64391
+Merit 0.5376299376299376
+
+---------------------------------
+
+Load Data  [OK]
+Load ELA Features  [OK]
+Link ELA Features to problems  [OK]
+Initialize Empirical Performance Model  [OK]
+Fix Training and Testing sets
+Number of problems : 791
+
+Train EPM  [OK]
+Test EPM  [OK]
+
+SBS 67727
+VBS 60512
+RS 63886
+Merit 0.4676368676368676
+
+---------------------------------
+
+Load Data  [OK]
+Load ELA Features  [OK]
+Link ELA Features to problems  [OK]
+Initialize Empirical Performance Model  [OK]
+Fix Training and Testing sets
+Number of problems : 790
+
+Train EPM  [OK]
+Test EPM  [OK]
+
+SBS 67727
+VBS 60512
+RS 62940
+Merit 0.3365211365211365
+
+---------------------------------
+
+Load Data  [OK]
+Load ELA Features  [OK]
+Link ELA Features to problems  [OK]
+Initialize Empirical Performance Model  [OK]
+Fix Training and Testing sets
+Number of problems : 783
+
+Train EPM  [OK]
+Test EPM  [OK]
+
+SBS 67727
+VBS 60512
+RS 63363
+Merit 0.39514899514899515
+
+---------------------------------
+
+Load Data  [OK]
+Load ELA Features  [OK]
+Link ELA Features to problems  [OK]
+Initialize Empirical Performance Model  [OK]
+Fix Training and Testing sets
+Number of problems : 805
+
+Train EPM  [OK]
+Test EPM  [OK]
+
+SBS 67727
+VBS 60512
+RS 60879
+Merit 0.050866250866250864
+
+---------------------------------
+
+Load Data  [OK]
+Load ELA Features  [OK]
+Link ELA Features to problems  [OK]
+Initialize Empirical Performance Model  [OK]
+Fix Training and Testing sets
+Number of problems : 771
+
+Train EPM  [OK]
+Test EPM  [OK]
+
+SBS 67727
+VBS 60512
+RS 64292
+Merit 0.5239085239085239
+
+---------------------------------
+
+Load Data  [OK]
+Load ELA Features  [OK]
+Link ELA Features to problems  [OK]
+Initialize Empirical Performance Model  [OK]
+Fix Training and Testing sets
+Number of problems : 805
+
+Train EPM  [OK]
+Test EPM  [OK]
+
+SBS 67727
+VBS 60512
+RS 64841
+Merit 0.6
+
+---------------------------------
+
+Load Data  [OK]
+Load ELA Features  [OK]
+Link ELA Features to problems  [OK]
+Initialize Empirical Performance Model  [OK]
+Fix Training and Testing sets
+Number of problems : 787
+
+Train EPM  [OK]
+Test EPM  [OK]
+
+SBS 67727
+VBS 60512
+RS 64513
+Merit 0.5545391545391546
+
+---------------------------------
+
+Load Data  [OK]
+Load ELA Features  [OK]
+Link ELA Features to problems  [OK]
+Initialize Empirical Performance Model  [OK]
+Fix Training and Testing sets
+Number of problems : 782
+
+Train EPM  [OK]
+Test EPM  [OK]
+
+SBS 67727
+VBS 60512
+RS 61656
+Merit 0.15855855855855855
+
+---------------------------------
+
+Load Data  [OK]
+Load ELA Features  [OK]
+Link ELA Features to problems  [OK]
+Initialize Empirical Performance Model  [OK]
+Fix Training and Testing sets
+Number of problems : 799
+
+Train EPM  [OK]
+Test EPM  [OK]
+
+SBS 67727
+VBS 60512
+RS 66337
+Merit 0.8073458073458073
+
+---------------------------------
+
+Load Data  [OK]
+Load ELA Features  [OK]
+Link ELA Features to problems  [OK]
+Initialize Empirical Performance Model  [OK]
+Fix Training and Testing sets
+Number of problems : 810
+
+Train EPM  [OK]
+Test EPM  [OK]
+
+SBS 67727
+VBS 60512
+RS 62375
+Merit 0.2582120582120582
+
+---------------------------------
+
+Load Data  [OK]
+Load ELA Features  [OK]
+Link ELA Features to problems  [OK]
+Initialize Empirical Performance Model  [OK]
+Fix Training and Testing sets
+Number of problems : 800
+
+Train EPM  [OK]
+Test EPM  [OK]
+
+SBS 67727
+VBS 60512
+RS 63137
+Merit 0.36382536382536385
+
+---------------------------------
+
+Load Data  [OK]
+Load ELA Features  [OK]
+Link ELA Features to problems  [OK]
+Initialize Empirical Performance Model  [OK]
+Fix Training and Testing sets
+Number of problems : 778
+
+Train EPM  [OK]
+Test EPM  [OK]
+
+SBS 67727
+VBS 60512
+RS 63370
+Merit 0.3961191961191961
+
+---------------------------------
+
+Load Data  [OK]
+Load ELA Features  [OK]
+Link ELA Features to problems  [OK]
+Initialize Empirical Performance Model  [OK]
+Fix Training and Testing sets
+Number of problems : 795
+
+Train EPM  [OK]
+Test EPM  [OK]
+
+SBS 67727
+VBS 60512
+RS 65177
+Merit 0.6465696465696466
+
+---------------------------------
+
+Load Data  [OK]
+Load ELA Features  [OK]
+Link ELA Features to problems  [OK]
+Initialize Empirical Performance Model  [OK]
+Fix Training and Testing sets
+Number of problems : 782
+
+Train EPM  [OK]
+Test EPM  [OK]
+
+SBS 67727
+VBS 60512
+RS 59518
+Merit -0.13776853776853776
+
+---------------------------------
+
+Load Data  [OK]
+Load ELA Features  [OK]
+Link ELA Features to problems  [OK]
+Initialize Empirical Performance Model  [OK]
+Fix Training and Testing sets
+Number of problems : 829
+
+Train EPM  [OK]
+Test EPM  [OK]
+
+SBS 67727
+VBS 60512
+RS 61915
+Merit 0.19445599445599446
+
+---------------------------------
+
+Load Data  [OK]
+Load ELA Features  [OK]
+Link ELA Features to problems  [OK]
+Initialize Empirical Performance Model  [OK]
+Fix Training and Testing sets
+Number of problems : 788
+
+Train EPM  [OK]
+Test EPM  [OK]
+
+SBS 67727
+VBS 60512
+RS 61153
+Merit 0.08884268884268884
+
+---------------------------------
+
+Load Data  [OK]
+Load ELA Features  [OK]
+Link ELA Features to problems  [OK]
+Initialize Empirical Performance Model  [OK]
+Fix Training and Testing sets
+Number of problems : 786
+
+Train EPM  [OK]
+Test EPM  [OK]
+
+SBS 67727
+VBS 60512
+RS 62544
+Merit 0.28163548163548163
+
+---------------------------------
+
+Mean RS: 62429.3
+Std RS: 2446.5948234229554
+
+Mean Merit: 0.2657380457380457
+Std Merit: 0.3390983816248032
